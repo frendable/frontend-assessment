@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.mainContainer {
+  text-align: center;
+  display: block;
+}
+
+.container {
+  display: inline-block;
+}

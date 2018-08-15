@@ -1,0 +1,31 @@
+.container {
+  padding: 16px;
+  margin: 16px;
+  display: inline-block;
+  vertical-align: top;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  width: 400px;
+}
+
+.content {
+  height: 128px;
+}
+
+.content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  line-height: 16px;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
+}
+
+.actionButton {
+  display: inline-block;
+  padding: 8px 16px;
+  border: 3px solid black;
+  border-radius: 32px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
